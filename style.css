@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: arial;
+}
+
+.gameBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.announcement {
+    font-size: 48px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 32px;
+}
+
+.hands {
+    display: flex;
+    justify-content: center;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hand > img {
+    min-width: 48px;
+    min-height: 48px;
+    width: 200px;
+    height: 200px;
+}
